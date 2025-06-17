@@ -9,8 +9,7 @@
         font-size: 2rem;
     }
     .nav-button{
-        display: block;
-        margin-right: 50px;
+        display: inline-block;
         font-size: 27px;
     }
     .nav-bar{
@@ -23,6 +22,7 @@
         right: 100%;
         background-image: var(--nav-background-image);
         width: 100%;
+        padding-right: 0;
     }
     .nav-div.active{
         left: 0%;
@@ -95,11 +95,13 @@
     }
     .nav-button{
         display: block;
-        margin-right: 50px;
         font-size: 25px;
     }
     .nav-content{
         justify-content: flex-end;
+    }
+    .nav-div{
+        padding-right: 0;
     }
     .welcome-div{
         padding-block: 10px;
@@ -181,6 +183,9 @@
     }
     .nav-content{
         justify-content: flex-end;
+    }
+    .nav-div{
+        padding-right: 0;
     }
     .welcome-div{
         /* margin: 10px 0; */
