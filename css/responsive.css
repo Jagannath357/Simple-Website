@@ -99,6 +99,7 @@
     }
     .nav-content{
         justify-content: flex-end;
+        padding-right: 25px;
     }
     .nav-div{
         padding-right: 0;
